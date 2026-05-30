@@ -1,0 +1,123 @@
+
+---
+
+## 📄 FILE: `.gitignore`
+
+Create this file in the **root folder** (SMART_IRRIGATION/):
+
+```gitignore
+# Arduino build files
+*.hex
+*.eep
+*.elf
+*.map
+*.bin
+
+# Build directories
+build/
+.build/
+__vm/
+
+# Arduino IDE files
+*.ino.cpp
+*.ino.globals.h
+.vscode/
+.vs/
+*.code-workspace
+
+# Platform.io
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE specific
+.idea/
+*.iml
+.settings/
+.project
+.cproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*~
+
+# Backup files
+*.bak
+*.old
+*.backup
+*.swp
+*.swo
+*.tmp
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Private/Secret files
+secrets.h
+credentials.h
+password.h
+config_local.h
+
+# Documentation build files
+docs/_build/
+docs/.buildinfo
+site/
+
+# Python cache (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Node modules (if you add any web tools later)
+node_modules/
+npm-debug.log
+
+# Test files
+test/
+tests/
+*.test
+
+# Large media files (optional - remove # if you want to track images)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.pdf
+
+# Sensitive data
+*.key
+*.pem
+*.cer
+*.p12
+
+# Temporary files
+temp/
+tmp/
+cache/
