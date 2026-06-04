@@ -6,7 +6,6 @@
 
 So I built this because my plants kept dying. Turns out, yelling at them doesn't work. This is an ESP32-based watering system I hacked together that actually uses some clever "Cycle & Soak" technique to water properly instead of flooding everything. It's got a web dashboard, an LCD menu (with those clicky buttons), and it even nags me when it's time to add fertilizer. Not bad for a weekend project.
 
-![My messy web dashboard](docs/images/web-interface.png)
 
 ---
 
@@ -131,7 +130,7 @@ Navigate with buttons:
 ## Documentation
 
 - [**Wiring Guide**](docs/WIRING.md) - Detailed connections
-- [**Bill of Materials**](hardware/BOM.md) - Component list
+- [**List of Materials**](hardware/BOM.md) - Component list
 
 ---
 
